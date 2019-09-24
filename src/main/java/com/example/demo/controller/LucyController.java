@@ -15,5 +15,6 @@ public class LucyController {
     public String miya(){
         return configBean.getName();
 
+        
     }
 }
