@@ -14,7 +14,5 @@ public class LucyController {
     @RequestMapping(value="/lucy")
     public String miya(){
         return configBean.getName();
-
-        
     }
 }
