@@ -10,17 +10,9 @@ import javax.persistence.*;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private Long id;
+    private long id;
     @Column(nullable = false,unique = true)
     private String username;
     @Column
     private  String passwd;
-    @Override
-    public String toString(){
-        return "Userinfo{"+
-                "id="+id+
-                ",username='"+username+'\''+
-                ",password='"+passwd+'\''+
-                '}';
-    }
 }

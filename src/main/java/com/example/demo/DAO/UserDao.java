@@ -5,4 +5,5 @@ import com.example.demo.entity.User;
 
 public interface UserDao extends JpaRepository<User,Long> {
     User findByUsername(String username);
+
 }
